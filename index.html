@@ -118,6 +118,10 @@
             text-transform: uppercase;
         }
 
+        .navbar-custom .btn-reserve:hover  {
+    background-color: #5ABB36; /* Slightly darker green */
+}
+
         .btn-reserve {
             background-color: #70D944;
             color: white;
@@ -126,6 +130,39 @@
             border-radius: 5px;
             text-transform: uppercase;
         }
+        .btn-reserve:hover {
+    background-color: #5ABB36; /* Slightly darker green */
+}
+        .read{
+            color: #003454;
+            text-decoration: none;
+        }
+
+        .rounded-icon{
+            border-radius: 14px;
+        }
+        .fw-bold1{
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .col-md-6.col-lg-4 .p-3 {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.col-md-6.col-lg-4 .p-3:hover {
+    transform: translateY(-5px); /* Moves the div up by 5px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
+    background-color: #70D944;
+}
+
+.col-2 img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-2:hover img {
+    transform: translateY(-3px) scale(1.05); /* Moves image up slightly and scales it */
+}
 
         
     </style>
@@ -184,6 +221,72 @@
             </div>
         </div>
     </section>
+
+    <div class="container my-5">
+       
+        
+        <div class="row g-3">
+            <div class="col-xl-4 col-lg-4">
+                <div class="p-3">
+                    <div class="col-12 text-start">
+                        <h2 class="fw-bold">Service Offerings</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus accumsan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 border rounded-icon shadow-sm">
+                    <img src="spot.svg" alt="Reserve" class="mb-2">
+                    <h5 class="fw-bold1">Reserve your spot now</h5>
+                    <a class="read" href="#">Read More ></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 border rounded-icon shadow-sm">
+                    <img src="chat.svg" alt="AI Chatbot" class="mb-2">
+                    <h5 class="fw-bold1">Try our AI chatbot</h5>
+                    <a class="read" href="#">Read More ></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 border rounded-icon shadow-sm">
+                    <img src="question.svg" alt="NCC Navigator" class="mb-2">
+                    <h5 class="fw-bold1">How do I use NCC Navigator?</h5>
+                    <a class="read" href="#">Read More ></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 border rounded-icon shadow-sm">
+                    <img src="price.svg" alt="Pricing" class="mb-2">
+                    <h5 class="fw-bold1">Pricing</h5>
+                    <a class="read" href="#">Read More ></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 border rounded-icon shadow-sm">
+                    <img src="involved.svg" alt="Get Involved" class="mb-2">
+                    <h5 class="fw-bold1">Get involved</h5>
+                    <a class="read" href="#">Read More ></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row text-center mt-5 mb-5">
+            <div class="col-12">
+                <p class="fw-light">Trusted by 10,000+ companies around the world</p>
+            </div>
+        </div>
+        
+        <div class="row text-center">
+            <div class="col-2"><img src="Google.svg" alt="Google" class="img-fluid"></div>
+            <div class="col-2"><img src="Facebook.svg" alt="Facebook" class="img-fluid"></div>
+            <div class="col-2"><img src="YouTube.svg" alt="YouTube" class="img-fluid"></div>
+            <div class="col-2"><img src="Pinterest.svg" alt="Pinterest" class="img-fluid"></div>
+            <div class="col-2"><img src="Twitch.svg" alt="Twitch" class="img-fluid"></div>
+            <div class="col-2"><img src="Webflow.svg" alt="Webflow" class="img-fluid"></div>
+        </div>
+    </div>
+    
 
     <!-- Bootstrap JS & Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
